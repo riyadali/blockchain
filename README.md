@@ -10,12 +10,12 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
      
      The book site includes a table of contents which is included below (not to see it formatted nicely look at the raw version of this file)
      
-        Introduction
-        
+        Introduction        
             What Is Bitcoin?            
             History of Bitcoin            
             Bitcoin Uses, Users, and Their Stories
             Getting Started
+            
         How Bitcoin Works        
             Transactions, Blocks, Mining, and the Blockchain
             Bitcoin Transactions
