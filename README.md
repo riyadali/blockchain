@@ -147,18 +147,17 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Conclusion
             References
             License
-Appendix B: Transaction Script Language Operators, Constants, and Symbols
+      Appendix B: Transaction Script Language Operators, Constants, and Symbols
 
-Appendix C: Segregated Witness
+      Appendix C: Bitcoin Improvement Proposals
+      
+      Appendix D: Segregated Witness      
 
-Appendix D: Bitcoin Improvement Proposals
-
-Appendix C: Bitcore
-Bitcore’s Feature List
-Bitcore Library Examples
-Appendix E: pycoin, ku, and tx
-
-Key Utility (KU)
-Appendix F: Bitcoin Explorer (bx) Commands
-
-Examples of bx command use
+      Appendix E: Bitcore      
+            Bitcore’s Feature List
+            Bitcore Library Examples
+      Appendix F: pycoin, ku, and tx
+            Key Utility (KU)
+      Appendix F: Bitcoin Explorer (bx) Commands
+            Examples of bx command use
+            Examples of bx command use
