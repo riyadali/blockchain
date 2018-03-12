@@ -3,7 +3,7 @@ Information on blockchains and cryptocurrencies as well as the programming langu
 
 __ A tutorial for Solidity can be found here https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html
 
-__ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos (Chp 3 provides programmatic API interface)
+__ An excellent reference for Bitcoin is Mastering Bitcoin by Andreas Antonopoulos (Chp 3 provides programmatic API interface)
    + Link for 2nd endition of this book can be found here https://bitcoinbook.info/
    
    + The latest text for this book is here https://github.com/bitcoinbook/bitcoinbook
@@ -147,17 +147,22 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Conclusion
             References
             License
+            
       Appendix B: Transaction Script Language Operators, Constants, and Symbols
 
       Appendix C: Bitcoin Improvement Proposals
       
       Appendix D: Segregated Witness      
 
-      Appendix E: Bitcore      
+      Appendix E: Bitcore
+      
             Bitcore’s Feature List
             Bitcore Library Examples
+            
       Appendix F: pycoin, ku, and tx
+      
             Key Utility (KU)
+            
       Appendix F: Bitcoin Explorer (bx) Commands
-            Examples of bx command use
+      
             Examples of bx command use
