@@ -4,8 +4,11 @@ Information on blockchains and cryptocurrencies as well as the programming langu
 __ A tutorial for Solidity can be found here https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html
 __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos (Chp 3 provides programmatic API interface)
    + Link for 2nd endition of this book can be found here https://bitcoinbook.info/
+   
      The latest trext for this book is here https://github.com/bitcoinbook/bitcoinbook
+     
      The book site includes a table of contents which is included below
+       (not to see it formatted nicely look at the raw version of this file)
         Introduction
             What Is Bitcoin?
             History of Bitcoin
