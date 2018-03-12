@@ -10,41 +10,53 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
      
      The book site includes a table of contents which is included below (not to see it formatted nicely look at the raw version of this file)
      
-        Introduction        
+        Introduction
+        
             What Is Bitcoin?            
             History of Bitcoin            
             Bitcoin Uses, Users, and Their Stories
             Getting Started
             
-        How Bitcoin Works        
+        How Bitcoin Works
+        
             Transactions, Blocks, Mining, and the Blockchain
             Bitcoin Transactions
             Constructing a Transaction
             Bitcoin Mining
             Mining Transactions in Blocks
             Spending the Transaction
+            
         Bitcoin Core: The Reference Implementation
+        
             Bitcoin Development Environment
             Compiling Bitcoin Core from the Source Code
             Running a Bitcoin Core Node
             Bitcoin Core Application Programming Interface (API)
             Alternative Clients, Libraries, and Toolkits
+            
         Keys, Addresses
+        
             Introduction
             Bitcoin Addresses
             Implementing Keys and Addresses in Python
             Advanced Keys and Addresses
+            
         Wallets
+        
             Wallet Technology Overview
             Wallet Technology Details
+            
         Transactions
+        
             Introduction
             Transactions in Detail
             Transaction Outputs and Inputs
             Transaction Scripts and Script Language
             Digital Signatures (ECDSA)
             Bitcoin Addresses, Balances and other abstractions
+            
         Advanced Transactions and Scripting
+        
             Introduction
             Multi-Signature
             Pay-to-Script-Hash (P2SH)
@@ -52,7 +64,9 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Timelocks
             Scripts with Flow Control (Conditional Clauses)
             Complex Script Example
+            
         The Bitcoin Network
+        
             Peer-to-Peer Network Architecture
             Nodes Types and Roles
             The Extended Bitcoin Network
@@ -66,7 +80,9 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             SPV nodes and privacy
             Encrypted and Authenticated Connections
             Transaction Pools
+            
         The Blockchain
+        
             Introduction
             Structure of a Block
             Block Header
@@ -79,7 +95,9 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Segnet – The Segregated Witness Testnet
             Regtest – The local blockchain
             Using test blockchains for development
+            
         Mining and Consensus
+        
             Introduction
             Decentralized Consensus
             Independent Verification of Transactions
@@ -95,11 +113,15 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Changing the Consensus Rules
             Soft Fork Signaling with Block Version
             Consensus Software Development
+            
         Bitcoin Security
+        
             Security Principles
             User Security Best Practices
             Conclusion
+            
         Blockchain Applications
+        
             Introduction
             Building Blocks (Primitives)
             Applications from Building Blocks
