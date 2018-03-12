@@ -3,14 +3,10 @@ Information on blockchains and cryptocurrencies as well as the programming langu
 
 __ A tutorial for Solidity can be found here https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html
 
-__ Popular blockchain explorers include:
-
-      Bitcoin Block Explorer (https://blockexplorer.com/)
-      
+__ Popular blockchain explorers include:      
+      Bitcoin Block Explorer (https://blockexplorer.com/)      
       BlockCypher Explorer (https://live.blockcypher.com/)
-
       blockchain.info (https://blockchain.info/)
-
       BitPay Insight (https://insight.bitpay.com/)
       
 __ Mycelium for Android (https://wallet.mycelium.com/) is probably a good wallet for Android smart phones
@@ -20,7 +16,7 @@ __ An excellent reference for Bitcoin is Mastering Bitcoin by Andreas Antonopoul
    
    + The latest text for this book is here https://github.com/bitcoinbook/bitcoinbook
      
-   + The book site includes a table of contents which is included below (not to see it formatted nicely look at the raw version of this file)
+   + The book site includes a table of contents which is included below
      
        1. Introduction
         
