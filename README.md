@@ -12,10 +12,8 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
      
         Introduction
         
-            What Is Bitcoin?
-            
-            History of Bitcoin
-            
+            What Is Bitcoin?            
+            History of Bitcoin            
             Bitcoin Uses, Users, and Their Stories
             Getting Started
         How Bitcoin Works
