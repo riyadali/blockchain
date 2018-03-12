@@ -17,6 +17,7 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Bitcoin Uses, Users, and Their Stories
             Getting Started
         How Bitcoin Works
+        
             Transactions, Blocks, Mining, and the Blockchain
             Bitcoin Transactions
             Constructing a Transaction
