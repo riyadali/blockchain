@@ -6,18 +6,18 @@ __ A tutorial for Solidity can be found here https://ethereumbuilders.gitbooks.i
 __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos (Chp 3 provides programmatic API interface)
    + Link for 2nd endition of this book can be found here https://bitcoinbook.info/
    
-     The latest text for this book is here https://github.com/bitcoinbook/bitcoinbook
+   + The latest text for this book is here https://github.com/bitcoinbook/bitcoinbook
      
-     The book site includes a table of contents which is included below (not to see it formatted nicely look at the raw version of this file)
+   + The book site includes a table of contents which is included below (not to see it formatted nicely look at the raw version of this file)
      
-        Introduction
+       1. Introduction
         
             What Is Bitcoin?            
             History of Bitcoin            
             Bitcoin Uses, Users, and Their Stories
             Getting Started
             
-        How Bitcoin Works
+       2. How Bitcoin Works
         
             Transactions, Blocks, Mining, and the Blockchain
             Bitcoin Transactions
@@ -26,7 +26,7 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Mining Transactions in Blocks
             Spending the Transaction
             
-        Bitcoin Core: The Reference Implementation
+       3. Bitcoin Core: The Reference Implementation
         
             Bitcoin Development Environment
             Compiling Bitcoin Core from the Source Code
@@ -34,19 +34,19 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Bitcoin Core Application Programming Interface (API)
             Alternative Clients, Libraries, and Toolkits
             
-        Keys, Addresses
+       4. Keys, Addresses
         
             Introduction
             Bitcoin Addresses
             Implementing Keys and Addresses in Python
             Advanced Keys and Addresses
             
-        Wallets
+       5. Wallets
         
             Wallet Technology Overview
             Wallet Technology Details
             
-        Transactions
+       6. Transactions
         
             Introduction
             Transactions in Detail
@@ -55,7 +55,7 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Digital Signatures (ECDSA)
             Bitcoin Addresses, Balances and other abstractions
             
-        Advanced Transactions and Scripting
+       7. Advanced Transactions and Scripting
         
             Introduction
             Multi-Signature
@@ -65,7 +65,7 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Scripts with Flow Control (Conditional Clauses)
             Complex Script Example
             
-        The Bitcoin Network
+       8. The Bitcoin Network
         
             Peer-to-Peer Network Architecture
             Nodes Types and Roles
@@ -81,7 +81,7 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Encrypted and Authenticated Connections
             Transaction Pools
             
-        The Blockchain
+       9. The Blockchain
         
             Introduction
             Structure of a Block
@@ -96,7 +96,7 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Regtest – The local blockchain
             Using test blockchains for development
             
-        Mining and Consensus
+       10. Mining and Consensus
         
             Introduction
             Decentralized Consensus
@@ -114,13 +114,13 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Soft Fork Signaling with Block Version
             Consensus Software Development
             
-        Bitcoin Security
+       11. Bitcoin Security
         
             Security Principles
             User Security Best Practices
             Conclusion
             
-        Blockchain Applications
+       12. Blockchain Applications
         
             Introduction
             Building Blocks (Primitives)
@@ -131,22 +131,22 @@ __ An excellent reference for Bitcoin is Master Bitcoin by Andreas Antonopoulos 
             Routed Payment Channels (Lightning Network)
             Conclusion
             
-Appendix A: Bitcoin – A Peer-to-Peer Electronic Cash System
+      Appendix A: The Bitcoin Whitepaper by Satoshi Nakamoto
 
-Introduction
-Transactions
-Timestamp Server
-Proof-of-Work
-Network
-Incentive
-Reclaiming Disk Space
-Simplified Payment Verification
-Combining and Splitting Value
-Privacy
-Calculations
-Conclusion
-References
-License
+            Introduction
+            Transactions
+            Timestamp Server
+            Proof-of-Work
+            Network
+            Incentive
+            Reclaiming Disk Space
+            Simplified Payment Verification
+            Combining and Splitting Value
+            Privacy
+            Calculations
+            Conclusion
+            References
+            License
 Appendix B: Transaction Script Language Operators, Constants, and Symbols
 
 Appendix C: Segregated Witness
