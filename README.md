@@ -3,6 +3,9 @@ Information on blockchains and cryptocurrencies as well as the programming langu
 
 __ A tutorial for Solidity can be found here https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html
 
+__ A reference for Ethereum is Mastering Ethereum by Andreas Antonopoulos and Gavin Wood
+   + The latest text for this book is here https://github.com/ethereumbook/ethereumbook
+
 __ Popular blockchain explorers include    
       
       Bitcoin Block Explorer (https://blockexplorer.com/)      
