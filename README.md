@@ -12,6 +12,17 @@ __ Popular blockchain explorers include
       
 __ Mycelium for Android (https://wallet.mycelium.com/) is probably a good wallet for Android smart phones
 
+__ Current transaction fees can be found here: https://bitcoinfees.earn.com/
+
+__ You can programmatically estimate fees using an API as follows
+
+      Using the fee estimation API
+            $ curl https://bitcoinfees.21.co/api/v1/fees/recommended
+
+            {"fastestFee":80,"halfHourFee":80,"hourFee":60}
+            
+      The API returns a JSON object with the current fee estimate for fastest confirmation (fastestFee), confirmation within three             blocks (halfHourFee) and six blocks (hourFee), in satoshi per byte.
+
 __ An excellent reference for Bitcoin is Mastering Bitcoin by Andreas Antonopoulos (Chp 3 provides programmatic API interface)
    + Link for 2nd endition of this book can be found here https://bitcoinbook.info/
    
