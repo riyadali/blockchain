@@ -5,6 +5,7 @@ __ A tutorial for Solidity can be found here https://ethereumbuilders.gitbooks.i
 
 __ A reference for Ethereum is Mastering Ethereum by Andreas Antonopoulos and Gavin Wood
    + The latest text for this book is here https://github.com/ethereumbook/ethereumbook
+   + First edition of the book is here https://github.com/ethereumbook/ethereumbook/tree/first_edition/
 
 __ Popular blockchain explorers include    
       
