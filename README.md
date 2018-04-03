@@ -27,6 +27,20 @@ __ You can programmatically estimate fees using an API as follows
             
       The API returns a JSON object with the current fee estimate for fastest confirmation (fastestFee), confirmation within three             blocks (halfHourFee) and six blocks (hourFee), in satoshi per byte.
 
+__ Applications/concepts built on the Blockchain (mostly from the book "Mastering Bitcoin")
+   + Proof-of-Existence (Digital Notary) - A digital fingerprint can be committed with a transaction to the blockchain, proving that a document existed (Timestamp) at the time it was recorded. The fingerprint cannot be modified ex-post-facto (Immutability) and the proof will be stored permanently (Durability)
+   + Kickstarter (Lighthouse) - If you sign one input and the output of a fundraiser transaction, others can contribute to the fundraiser but it cannot be spent until the goal (output value) is funded.
+   + Payment Channels (discussed further below) - A multisig 2-of-2 with a timelock used as the "settlement" transaction of a payment channel can be held and spent whenever by either party.  The two parties can then create commitment transactions that double-spend the settlement on a shorter timelock (in essence invalidating previous commitment transactions)
+   + Colored Coins are used to track assets that are not stored directly on the bitcoin blockchain, as opposed to bitcoin itself, which is an asset intrinsic to the blockchain.
+      + Colored coins are used to track digital assets as well as physical assets held by third parties and traded through colored coins certificates of ownership.  Digital assets colored coins can represent intangible assets such as a stock certificate, license, virtual property (game items), or most any form of licensed intellectual property (trademarks, copyrights, etc).  Tangible colored coins can represent certificates of ownership of commodities (gold, silver, oil), land title, automobiles, boats, aircraft, etc.
+      + The term derives from the idea of "coloring" or marking a nominal amount of bitcoin, for example, a single satoshi, to represent something other than the bitcoin value itself
+      + More recent implementations of colored coins use the OP_RETURN script opcode to store metadata in a transaction, in conjunction with external data stores that associate the metadata to specific assets.
+      + The two most common implementations today of colored coins are Open Assets (http://www.openassets.org/ and Colored Cois by Colu (http://coloredcoins.org).  These two systems use different approaches to colored coins and are not compatible.  Colored coins created in one system cannot be seen or used in the other system.
+      + An Open Assets- compatible wallet application and blockexplorer can be found at coinprism (https://www.coinprism.info)
+      + A Colu Colored Coins-compatible wallet application and blockexplorer can be found at Blockchain Explorer (http://coloredcoins.org/explorer).
+      + A Copay wallet plug-in can be found at Colored Coins Copay Addon (http://coloredcoins.org/colored-coins-copay-addon/).
+      
+   
 __ An excellent reference for Bitcoin is Mastering Bitcoin by Andreas Antonopoulos (Chp 3 provides programmatic API interface)
    + Link for 2nd endition of this book can be found here https://bitcoinbook.info/
    
