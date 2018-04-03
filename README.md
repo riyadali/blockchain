@@ -94,12 +94,13 @@ __ Applications/concepts built on the Blockchain (mostly from the book "Masterin
          + The funding transaction may have one or more inputs from Hitesh (adding up to 5 bitcoin or more), and one or more inputs from Irene (adding up to 5 bitcoin or more). The inputs have to slightly exceed the channel capacity in order to cover the transaction fees. The transaction has one output that locks the 10 total bitcoin to a 2-of-2 multisig address controlled by both Hitesh and Irene. The funding transaction may also have one or more outputs returning change to Hitesh and Irene if their inputs exceeded their intended channel contribution. This is a single transaction with inputs offered and signed by two parties. It has to be constructed in collaboration and signed by each party before it is transmitted.
          + Now, instead of creating a single commitment transaction that both parties sign, Hitesh and Irene create two different commitment transactions that are asymmetric.
          + Hitesh has a commitment transaction with two outputs. The first output pays Irene the 5 bitcoin she is owed immediately. The second output pays Hitesh the 5 bitcoin he is owed, but only after a timelock of 1000 blocks. The transaction outputs look like this:
+         
              Input: 2-of-2 funding output, signed by Irene
              
-                  Output 0 <5 bitcoin>:
+               Output 0 <5 bitcoin>:
                   <Irene's Public Key> CHECKSIG
 
-            Output 1:
+               Output 1:
             
                   <1000 blocks>
                   CHECKSEQUENCEVERIFY
