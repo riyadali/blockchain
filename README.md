@@ -69,6 +69,11 @@ __ Applications/concepts built on the Blockchain (mostly from the book "Masterin
          + Finally, Emma clicks "Stop" to stop streaming video. Either Fabian or Emma can now transmit the final state transaction for settlement. This last transaction is the settlement transaction and pays Fabian for all the video Emma consumed, refunding the remainder of the funding transaction to Emma.
          + Emma’s payment channel with Fabian, showing the commitment transactions that update the balance of the channel shows the channel between Emma and Fabian and the commitment transactions that update the balance of the channel.
          + In the end, only two transactions are recorded on the blockchain: the funding transaction that established the channel and a settlement transaction that allocated the final balance correctly between the two participants.
+      + Making Trustless Channels
+         + The channel we just described works, but only if both parties cooperate, without any failures or attempts to cheat. Let’s look at some of the scenarios that break this channel and see what is needed to fix those:
+            + Once the funding transaction happens, Emma needs Fabian’s signature to get any money back. If Fabian disappears, Emma’s funds are locked in a 2-of-2 and effectively lost. This channel, as constructed, leads to a loss of funds if one of the parties disconnects before there is at least one commitment transaction signed by both parties.
+            + While the channel is running, Emma can take any of the commitment transactions Fabian has countersigned and transmit one to the blockchain. Why pay for 600 seconds of video, if she can transmit commitment transaction #1 and only pay for 1 second of video? The channel fails because Emma can cheat by broadcasting a prior commitment that is in her favor.
+      + Both of these problems can be solved with timelocks—let’s look at how we could use transaction-level timelocks (nLocktime).
 
 
 
