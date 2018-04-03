@@ -94,30 +94,30 @@ __ Applications/concepts built on the Blockchain (mostly from the book "Masterin
          + The funding transaction may have one or more inputs from Hitesh (adding up to 5 bitcoin or more), and one or more inputs from Irene (adding up to 5 bitcoin or more). The inputs have to slightly exceed the channel capacity in order to cover the transaction fees. The transaction has one output that locks the 10 total bitcoin to a 2-of-2 multisig address controlled by both Hitesh and Irene. The funding transaction may also have one or more outputs returning change to Hitesh and Irene if their inputs exceeded their intended channel contribution. This is a single transaction with inputs offered and signed by two parties. It has to be constructed in collaboration and signed by each party before it is transmitted.
          + Now, instead of creating a single commitment transaction that both parties sign, Hitesh and Irene create two different commitment transactions that are asymmetric.
          + Hitesh has a commitment transaction with two outputs. The first output pays Irene the 5 bitcoin she is owed immediately. The second output pays Hitesh the 5 bitcoin he is owed, but only after a timelock of 1000 blocks. The transaction outputs look like this:
+             Input: 2-of-2 funding output, signed by Irene
+             
+                  Output 0 <5 bitcoin>:
+                  <Irene's Public Key> CHECKSIG
 
-Input: 2-of-2 funding output, signed by Irene
-
-Output 0 <5 bitcoin>:
-    <Irene's Public Key> CHECKSIG
-
-Output 1:
-    <1000 blocks>
-    CHECKSEQUENCEVERIFY
-    DROP
-    <Hitesh's Public Key> CHECKSIG
+            Output 1:
+            
+                  <1000 blocks>
+                  CHECKSEQUENCEVERIFY
+                  DROP
+                  <Hitesh's Public Key> CHECKSIG
     
          + Irene has a different commitment transaction with two outputs. The first output pays Hitesh the 5 bitcoin he is owed immediately. The second output pays Irene the 5 bitcoin she is owed but only after a timelock of 1000 blocks. The commitment transaction Irene holds (signed by Hitesh) looks like this:
 
-Input: 2-of-2 funding output, signed by Hitesh
+            Input: 2-of-2 funding output, signed by Hitesh
 
-Output 0 <5 bitcoin>:
-    <Hitesh's Public Key> CHECKSIG
+               Output 0 <5 bitcoin>:
+                  <Hitesh's Public Key> CHECKSIG
 
-Output 1:
-    <1000 blocks>
-    CHECKSEQUENCEVERIFY
-    DROP
-    <Irene's Public Key> CHECKSIG
+               Output 1:
+                  <1000 blocks>
+                  CHECKSEQUENCEVERIFY
+                  DROP
+                  <Irene's Public Key> CHECKSIG
     
          + This way, each party has a commitment transaction, spending the 2-of-2 funding output. This input is signed by the other party. At any time the party holding the transaction can also sign (completing the 2-of-2) and broadcast. However, if they broadcast the commitment transaction, it pays the other party immediately whereas they have to wait for a short timelock to expire. By imposing a delay on the redemption of one of the outputs, we put each party at a slight disadvantage when they choose to unilaterally broadcast a commitment transaction. But a time delay alone isn’t enough to encourage fair conduct.
 
