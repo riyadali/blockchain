@@ -1,6 +1,8 @@
 # blockchain
 Information on blockchains and cryptocurrencies as well as the programming language Solidity
 
+__ A good intro to the historical background and social implications of cryptocurrency/blockchain can be found in the book, "The Age of Cryptocurrency", by Paul Vigna and Michael J. Casey.  A link to a suymmary of the book, that includes a bookmark for the introductory chapter of the book, can be found at this link https://us.macmillan.com/books/9781466873063.  
+
 __ A tutorial for Solidity can be found here https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html
 
 __ A reference for Ethereum is Mastering Ethereum by Andreas Antonopoulos and Gavin Wood
